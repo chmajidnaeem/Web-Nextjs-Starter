@@ -1,7 +1,7 @@
 import Image from 'next/image'
 const logos = [
   {
-    name: 'Prime',
+    name: 'Primew',
     url: 'https://res.cloudinary.com/dfhp33ufc/image/upload/v1715276558/logos/t2awrrfzdvmg1chnzyfr.svg',
   },
   {
