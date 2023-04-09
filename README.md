@@ -3,7 +3,10 @@
 # Project Overview 
 
 ![Project snip 1](pic1.png)
-
+![Project snip 2](pic2.png)
+![Project snip 2](pic3.png)
+![Project snip 4](pic4.png)
+![Project snip 5](pic5.png)
 ## Prerequisites
 - Node.js and yarn/bun installed
 - Accounts and API keys for:
