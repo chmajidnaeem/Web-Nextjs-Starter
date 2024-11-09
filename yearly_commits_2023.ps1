@@ -11,7 +11,7 @@ for ($i = 0; $i -lt $total_days; $i++) {
 
     # Check if it's Saturday or Sunday
     if ($commit_date.DayOfWeek -eq 'Saturday' -or $commit_date.DayOfWeek -eq 'Sunday') {
-        # Get commit ID for that specific date (PowerShell way to capture output)
+        # Get commit ID for that specific date
         $commit_id = & git log --pretty=format:"%H" --since="$($commit_date.ToString("yyyy-MM-dd")) 00:00:00" --until="$($commit_date.ToString("yyyy-MM-dd")) 23:59:59" -n 1
 
         if ($commit_id) {
@@ -21,8 +21,8 @@ for ($i = 0; $i -lt $total_days; $i++) {
     }
 }
 
-# Commit the reverts for all weekend commits
+# Commit all reverts for weekend commits
 git commit -m "Remove weekend commits"
 
-# Push changes (use --force if needed)
+# Push changes to the remote repository with force
 git push origin master --force
