@@ -1,6 +1,13 @@
 # Getting Started
 
 # Project Overview 
+Welcome to Web Starter Kit working as a SaaS Product, a seamless and scalable SaaS template built with Next.js and Tailwind CSS. Perfectly designed to jumpstart your web app projects with modern, responsive UI components and exceptional performance. Our template provides a clean, professional user interface and optimized workflows, making it easy to customize and deploy.
+
+Key Features
+Next.js Framework: Experience fast, efficient server-side rendering and optimized static site generation for a blazing-fast application.
+Tailwind CSS: Style easily using Tailwind's utility-first approach, allowing you to build complex, responsive designs without custom CSS.
+Fully Responsive: Mobile-first design to ensure an outstanding experience across all devices.
+Highly Customizable: Easily tweak components and styles to suit your brand and product needs.
 
 ![Project snip 1](pic1.png)
 ![Project snip 2](pic2.png)
