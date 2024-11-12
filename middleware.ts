@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import config from "./config";
-
+//middle
 let clerkMiddleware: (arg0: (auth: any, req: any) => any) => { (arg0: any): any; new(): any; }, createRouteMatcher;
 
 if (config.auth.enabled) {
